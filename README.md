@@ -12,7 +12,7 @@ Here, we will be dealing with the conversation turns and emotion, not the prompt
 We will be using pytorch’s nn.Transformer() library to train a transformer generator model. This model takes the most recent turn (past_turn) in a conversation and generates a response. The general transformer architecture can be seen below, reproduced from Vaswani et al.
 
 The nn.Transformer package takes care of the transformer architecture in the grey boxes.
-![Transformer](/Images/Transformer.png)
+![Transformer](/Images/Transformer.PNG)
 
 * self.model: this should be a call to nn.Transformer()4 with the necessary parameters.
 * self.out: this should be the linear layer to produce the model’s output (the top grey Linear box in the Transformer diagram above).
